@@ -1,0 +1,390 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy 19th Birthday, Bebe! 💙</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+    <div id="particles"></div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">♡ For Tersayang</div>
+
+        <button id="musicBtn" class="music-btn">
+            ♫ Putar Musik
+        </button>
+    </nav>
+
+
+    <!-- LAYER 1: OPENING -->
+    <section class="page active" id="page1">
+
+        <div class="content opening">
+
+            <div class="envelope" onclick="nextPage(2)">
+                💌
+            </div>
+
+            <p class="small-text">
+                A SPECIAL DAY FOR SOMEONE SPECIAL
+            </p>
+
+            <h1>Happy Birthday!</h1>
+
+            <h2 class="name-title">
+                Syifa Khusnul Khotimah
+            </h2>
+
+            <h2>19th Birthday 🎂</h2>
+
+            <p class="description">
+                Ada sesuatu yang spesial untuk Bebe.
+                Sebuah hadiah kecil yang dibuat
+                dengan penuh kasih sayang. ❤️
+            </p>
+
+            <button class="primary-btn" onclick="nextPage(2)">
+                Buka Hadiah 💙
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- LAYER 2: GREETING -->
+    <section class="page" id="page2">
+
+        <div class="content">
+
+            <span class="emoji">🎉💙</span>
+
+            <h1>Happy 19th Birthday!</h1>
+
+            <h2 class="name-title">
+                Syifa Khusnul Khotimah
+            </h2>
+
+            <p class="subtitle">
+                Selamat ulang tahun yang ke-19, Bebe! ❤️
+            </p>
+
+            <div class="message-card">
+
+                <p>
+                    Hari ini adalah hari yang sangat spesial,
+                    karena seseorang yang istimewa sedang
+                    merayakan hari kelahirannya.
+                </p>
+
+                <p>
+                    Selamat bertambah usia, Bebe.
+                    Semoga di usia 19 tahun ini,
+                    Bebe selalu diberikan kesehatan,
+                    kebahagiaan, dan keberuntungan.
+                </p>
+
+                <p>
+                    Semoga semua impian dan harapan
+                    Bebe satu per satu bisa menjadi kenyataan.
+                </p>
+
+                <h2>Happy Birthday, Bebe! 💗</h2>
+
+            </div>
+
+            <button class="primary-btn" onclick="nextPage(3)">
+                Baca Suratnya 💌
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- LAYER 3: SURAT -->
+    <section class="page" id="page3">
+
+        <div class="content">
+
+            <span class="emoji">💌</span>
+
+            <h1>A Letter For Bebe</h1>
+
+            <p class="subtitle">
+                Ada beberapa kata yang ingin disampaikan.
+            </p>
+
+            <div class="letter-card">
+
+                <h2>Dear Bebe, ❤️</h2>
+
+                <p id="typingText"></p>
+
+                <p class="signature">
+                    With Love, 💙
+                </p>
+
+            </div>
+
+            <button class="primary-btn" onclick="nextPage(4)">
+                Lihat Bidadarii Tercinta 📸
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- LAYER 4: GALERI FOTO -->
+    <section class="page" id="page4">
+
+        <div class="content gallery-content">
+
+            <span class="emoji">📸💗</span>
+
+            <h1>Our Memories</h1>
+
+            <p class="subtitle">
+                FOTO Asli Sosok Bidadarii Surga Yang Aku punya.
+            </p>
+
+            <div class="gallery">
+
+                <div class="photo"><img src="assets/foto1.jpg" alt="Kenangan 1"></div>
+                <div class="photo"><img src="assets/foto2.jpg" alt="Kenangan 2"></div>
+                <div class="photo"><img src="assets/foto3.jpg" alt="Kenangan 3"></div>
+                <div class="photo"><img src="assets/foto4.jpg" alt="Kenangan 4"></div>
+                <div class="photo"><img src="assets/foto5.jpg" alt="Kenangan 5"></div>
+                <div class="photo"><img src="assets/foto6.jpg" alt="Kenangan 6"></div>
+                <div class="photo"><img src="assets/foto7.jpg" alt="Kenangan 7"></div>
+                <div class="photo"><img src="assets/foto8.jpg" alt="Kenangan 8"></div>
+                <div class="photo"><img src="assets/foto9.jpg" alt="Kenangan 9"></div>
+                <div class="photo"><img src="assets/foto10.jpg" alt="Kenangan 10"></div>
+                <div class="photo"><img src="assets/foto11.jpg" alt="Kenangan 11"></div>
+                <div class="photo"><img src="assets/foto12.jpg" alt="Kenangan 12"></div>
+                <div class="photo"><img src="assets/foto13.jpg" alt="Kenangan 13"></div>
+                <div class="photo"><img src="assets/foto14.jpg" alt="Kenangan 14"></div>
+                <div class="photo"><img src="assets/foto15.jpg" alt="Kenangan 15"></div>
+                <div class="photo"><img src="assets/foto16.jpg" alt="Kenangan 16"></div>
+
+            </div>
+
+            <button class="primary-btn" onclick="nextPage(5)">
+                Lanjutkan 💙
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- LAYER 5: TIMELINE -->
+    <section class="page" id="page5">
+
+        <div class="content">
+
+            <span class="emoji">🦋✨</span>
+
+            <h1>Chapter 19</h1>
+
+            <p class="subtitle">
+                Welcome to a beautiful new chapter, Bebe.
+            </p>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">🌸</div>
+                    <div>
+                        <h3>New Beginning</h3>
+                        <p>
+                            Semoga usia baru ini menjadi
+                            awal dari banyak hal baik.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">🌟</div>
+                    <div>
+                        <h3>Beautiful Dreams</h3>
+                        <p>
+                            Semoga semua cita-cita dan
+                            harapan Bebe bisa tercapai.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">💙</div>
+                    <div>
+                        <h3>Endless Happiness</h3>
+                        <p>
+                            Semoga setiap hari selalu
+                            dipenuhi kebahagiaan.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">🦋</div>
+                    <div>
+                        <h3>Keep Growing</h3>
+                        <p>
+                            Teruslah berkembang dan
+                            menjadi versi terbaik dirimu.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="primary-btn" onclick="nextPage(6)">
+                Pesan Spesial Untuk Bebe ❤️
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- LAYER 6: SPECIAL MESSAGE -->
+    <section class="page" id="page6">
+
+        <div class="content">
+
+            <span class="emoji">💗</span>
+
+            <h1>For My Bebe Tercinta</h1>
+
+            <div class="message-card special-card">
+
+                <h2>Untuk Syifa Khusnul Khotimah</h2>
+
+                <p>
+                    Selamat ulang tahun yang ke-19, Bebee.
+                </p>
+
+                <p>
+                    Di antara jutaan bintang di langit malam,
+Ada satu cahaya yang paling ingin kupandang.
+Bukan karena ia paling terang,
+Namun karena kehadirannya membuat hati terasa tenang.
+                </p>
+
+                <p>
+                    Aku tak menjanjikan dunia tanpa air mata,
+Namun semoga selalu ada bahagia di antara cerita.
+Sebab bagiku, cinta bukan tentang kesempurnaan,
+Melainkan tentang menerima dengan ketulusan.
+                </p>
+
+                <p>
+                    Dan jika suatu hari kau bertanya,
+Apa arti dirimu dalam hidupku?
+Kau adalah salah satu alasan sederhana,
+Mengapa hari-hari terasa lebih indah untuk dilalui. ❤️💙
+                </p>
+
+                <p>
+                    Semoga hari ini menjadi awal dari
+                    banyak kebahagiaan yang menanti.
+                </p>
+
+                <h2 class="love-text">
+                    You Are Special, Bebe! ❤️
+                </h2>
+
+            </div>
+
+            <button class="primary-btn" onclick="nextPage(7)">
+                Kejutan Terakhir 🎁
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- LAYER 7: FINAL SURPRISE -->
+    <section class="page" id="page7">
+
+        <div class="content">
+
+            <span class="emoji">🎁💙</span>
+
+            <h1>One Last Surprise!</h1>
+
+            <p class="subtitle">
+                Ada satu pesan terakhir untuk Bebe.
+            </p>
+
+            <button class="surprise-btn" onclick="showSurprise()">
+                Klik Untuk Membuka ❤️
+            </button>
+
+            <div class="surprise-box" id="surpriseBox">
+
+                <h2>Happy 19th Birthday!</h2>
+
+                <h2>Syifa Khusnul Khotimah 💗</h2>
+
+                <p>
+                    Selamat memasuki usia 19 tahun, Bebe.
+                </p>
+
+                <p>
+                    Semoga kita cepat ketemu walaupun tidak tau kapan semoga kita ketemu di dunia nyata, dan semoga kita bisa selalu bersama walaupun kita jauh.
+                </p>
+
+                <p>
+                    Maaf belum bisa memberikan hadiah yang istimewa,
+                    tapi semoga hadiah kecil ini bisa membuatmu tersenyum I LOVEE YOUU SAYANG.
+                </p>
+
+                <h2 class="final-love">
+                    Happy Birthday, Bebe! ❤️
+                </h2>
+
+                <div class="final-heart">💙</div>
+
+            </div>
+
+            <p class="footer-text">
+                Made with ❤️ just for Bebe.
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- NAVIGASI -->
+    <div class="page-navigation">
+
+        <button onclick="previousPage()" id="prevBtn">
+            ← Kembali
+        </button>
+
+        <span id="pageIndicator">1 / 7</span>
+
+        <button onclick="nextPage(currentPage + 1)" id="nextBtn">
+            Berikutnya →
+        </button>
+
+    </div>
+
+
+    <!-- AUDIO -->
+    <audio id="backgroundMusic" loop>
+        <source src="assets/musik.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
